@@ -1,0 +1,71 @@
+.menusub-div {
+  border: 1px solid rgba(214, 173, 133, 0.4);
+}
+
+.menusub-div h2 {
+  font-size: 2.4rem;
+  margin-top: 2.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.menusub-div p {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  color: #2c3033;
+}
+
+.menusub-div span {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  display: block;
+}
+
+.menudiv-img {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .menusub-div {
+    margin: 0 5rem;
+    text-align: center;
+    padding: 1rem 0rem;
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .menusub-div {
+    padding-left: 0;
+    width: 80%;
+  }
+  .menudiv-img {
+    width: 100%;
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .menusub-div {
+    padding-left: 0;
+    margin: 0 10rem;
+    width: 65%;
+  }
+  .menudiv-img {
+    width: 90%;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 398px) {
+  .menusub-div {
+    padding-left: 0;
+    margin: 0 5rem;
+    width: 75%;
+  }
+  .menudiv-img {
+    width: 90%;
+    padding: 0 2rem;
+  }
+}

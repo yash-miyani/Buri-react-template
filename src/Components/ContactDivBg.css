@@ -1,0 +1,78 @@
+.contact-bg {
+  background-image: url("../../public/Asseets/images/contact-bg.png");
+  background-repeat: no-repeat;
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-div {
+  padding: 7rem 5rem;
+  background-color: #fff;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  transform: translate(-40%, -25%);
+}
+
+.contact-div h2 {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.contact-div h3 {
+  margin-top: 2.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.contact-div p {
+  color: #7b7b7b;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+/* media screen  */
+@media (max-width: 992px) {
+  .contact-bg {
+    height: 600px;
+  }
+  .contact-div {
+    padding: 2rem 5rem;
+    background-color: #fff;
+    width: 50%;
+    top: 30%;
+    left: 15%;
+    transform: translate(-30%, -25%);
+  }
+}
+@media (max-width: 768px) {
+  .contact-bg {
+    height: 450px;
+  }
+  .contact-div {
+    padding: 2rem 4rem;
+    background-color: #fff;
+    width: 50%;
+    top: 10%;
+    left: 10%;
+    transform: translate(-30%, -25%);
+  }
+}
+@media (max-width: 450px) {
+  .contact-bg {
+    height: 600px;
+  }
+  .contact-div {
+    padding: 2rem 4rem;
+    background-color: #fff;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    transform: translate(-30%, -25%);
+  }
+}

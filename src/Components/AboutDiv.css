@@ -1,0 +1,56 @@
+.about-div {
+  padding: 5rem 0 3rem 5rem;
+  box-shadow: 0 0 5px rgba(204, 204, 204, 0.5);
+}
+
+.aboutdiv-content {
+  padding: 3rem;
+}
+
+.aboutdiv-content h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #d6ad85;
+}
+
+.aboutdiv-content h2 {
+  font-size: 4.8rem;
+  font-family: initial;
+  margin: 2rem 0;
+}
+
+.aboutdiv-content p {
+  font-family: inherit;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.aboutdiv-content button {
+  padding: 1.2rem 4rem;
+  background-color: #d6ad85;
+  color: #fff;
+  border: none;
+  transition: all 0.5s;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.aboutdiv-content button:hover {
+  background-color: #ffb830;
+}
+
+@media (max-width: 968px) {
+  .about-div {
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-div {
+    padding: 2rem;
+  }
+  .aboutdiv-img {
+    width: 100%;
+  }
+}

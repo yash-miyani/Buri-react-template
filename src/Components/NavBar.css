@@ -1,0 +1,144 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.logo {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  color: #fff;
+}
+.logo span {
+  color: #d6ad85;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+}
+
+.menu li a:hover {
+  color: #d6ad85;
+}
+
+.navbar-icon a {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0.8rem;
+}
+
+.navbar .active {
+  color: #d6ad85;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 3.6rem;
+  width: 3.6rem;
+  color: #fff;
+  background-color: #d6ad85;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 1px solid #d6ad85;
+  transition: all 0.5s;
+}
+.icon-mobile-nav:hover {
+  background-color: #fff;
+  color: #d6ad85;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  color: #fff;
+  display: none;
+}
+
+/* ////================= DARK MODE CSS =================== //// */
+.scroll {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  padding: 2rem;
+  box-shadow: 0 0 5ps 5px #fff;
+}
+
+/* =============================== mobile navbar =============================  */
+@media (max-width: 992px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .menu li a {
+    color: #fff;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(-100%);
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    font-size: 3.5rem;
+    z-index: 99;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 2.4rem;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .navbar-icon {
+    display: none;
+  }
+}

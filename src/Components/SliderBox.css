@@ -1,0 +1,45 @@
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+/* custom-slider-styles.css */
+.slick-prev,
+.slick-next {
+  display: none !important; /* Hide the arrows */
+}
+
+.card-box {
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(204, 204, 204, 0.8);
+  margin: 1rem 3rem;
+}
+.card-box p {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+.card-body {
+  display: flex;
+}
+
+.card-body img {
+  margin: 2rem;
+  margin-left: 3rem;
+}
+
+.card-body-contain {
+  margin-top: 2rem;
+}
+
+.card-body-contain h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.card-body-contain i {
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
+  color: #ffb830;
+}

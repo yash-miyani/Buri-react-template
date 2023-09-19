@@ -1,0 +1,49 @@
+.bgimg-video {
+  background-image: url(../../public/Asseets/images/bg-Imgvideo.png);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgimg-video i {
+  font-size: 4rem;
+  background-color: rgba(214, 173, 133, 0.8);
+  outline: 2px solid rgba(214, 173, 133, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 7rem;
+  color: #fff;
+  cursor: pointer;
+  animation: icon 4s ease-in-out infinite alternate-reverse;
+}
+
+.bgimg-video i:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+@keyframes icon {
+  10% {
+    outline: 1rem solid rgba(214, 173, 133, 0.7);
+  }
+  30% {
+    outline: 2rem solid rgba(214, 173, 133, 0.5);
+  }
+  50% {
+    outline: 3rem solid rgba(214, 173, 133, 0.3);
+  }
+  70% {
+    outline: 2rem solid rgba(214, 173, 133, 0.5);
+  }
+  90% {
+    outline: 1rem solid rgba(214, 173, 133, 0.7);
+  }
+  100% {
+    outline: 0.5rem solid rgba(214, 173, 133, 0.7);
+  }
+}

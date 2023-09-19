@@ -1,0 +1,64 @@
+.home-header-bg {
+  background-image: url("../public/Asseets/images/home-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 1000px;
+}
+.home-header-content {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  color: #fff;
+}
+.home-header-content h3 {
+  color: #d6ad85;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.home-header-content h1 {
+  font-size: 6.4rem;
+  width: 60%;
+  font-family: none;
+  margin: 3rem 0;
+  font-weight: 500;
+}
+.home-header-content button {
+  padding: 1.5rem 4rem;
+  font-size: 1.6rem;
+  background-color: #d6ad85;
+  color: #fff;
+  border: 0;
+  transition: all 0.5s;
+}
+.home-header-content button:hover {
+  background-color: #ffb830;
+}
+
+@media (max-width: 992px) {
+  .home-header-content h1 {
+    font-size: 4.2rem;
+    width: 55%;
+    margin: 4rem 0;
+  }
+  .home-header-content button {
+    padding: 1.5rem 3rem;
+  }
+  .home-header-bg {
+    height: 700px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-header-content h1 {
+    font-size: 4.2rem;
+    width: 80%;
+    margin: 4rem 0;
+  }
+  .home-header-content button {
+    padding: 1.5rem 3rem;
+  }
+  .home-header-bg {
+    height: 600px;
+  }
+}

@@ -1,0 +1,148 @@
+.singal-blog {
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.singal-blog-box {
+  background-color: #d6ad85;
+  display: inline-block;
+  font-size: 2.8rem;
+  padding: 1.5rem 2.5rem;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  position: absolute;
+  top: 33rem;
+  left: 5rem;
+}
+.singal-blog-box small {
+  display: block;
+}
+
+.singal-blog-contain {
+  padding: 4rem 3rem;
+  box-shadow: 0 0 5px rgba(204, 204, 204, 0.8);
+}
+
+.singal-blog-contain h3 {
+  font-size: 2.6rem;
+  color: rgb(102, 102, 102);
+  font-family: "Playfair Display", serif;
+}
+
+.singal-blog-contain p {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.singal-blog-contain span {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .singal-blog-box {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .singal-blog {
+    padding: 0 5rem;
+  }
+}
+
+.blog-second {
+  padding: 0 5rem;
+}
+
+.blog-second input {
+  width: 100%;
+}
+
+.blog-second input {
+  padding: 1.2rem;
+  border: none;
+  box-shadow: 0 0 5px rgba(204, 204, 204, 0.8);
+  margin-bottom: 2rem;
+}
+
+.blog-category {
+  margin: 5rem 0;
+  box-shadow: 0 0 5px rgba(204, 204, 204, 0.8);
+  padding: 2rem;
+}
+
+.blog-category h3 {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 2rem;
+}
+
+.blog-category ul li {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.6);
+  padding: 1rem 0;
+}
+
+.post {
+  box-shadow: 0 0 5px rgba(204, 204, 204, 0.8);
+  padding: 1rem;
+}
+
+.post h2,
+.cloude h2,
+.feed h2,
+.input-box h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.6);
+  padding: 1rem 0;
+}
+
+.post h3 {
+  font-size: 1.6rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.post p {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+}
+
+.cloude,
+.feed,
+.input-box {
+  box-shadow: 0 0 5px rgba(204, 204, 204, 0.8);
+  margin: 5rem 0;
+  padding: 1rem;
+}
+
+.cloude ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cloude ul li {
+  margin: 0.8rem;
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  border: 1px solid rgba(204, 204, 204, 0.809);
+  background-color: #fff;
+  color: #888888;
+}
+
+.feed img {
+  width: 30%;
+  margin: 0.4rem;
+}

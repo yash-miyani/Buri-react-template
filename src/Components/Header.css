@@ -1,0 +1,37 @@
+.header {
+  position: relative;
+  height: 550px;
+}
+.header-bg {
+  background-image: url("../../public/Asseets/images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+}
+.header-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  left: 15%;
+}
+.header-content h2 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.header-content h1 {
+  font-size: 5rem;
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}

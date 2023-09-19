@@ -1,0 +1,13 @@
+.heading {
+  text-align: center;
+}
+.heading h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #d6ad85;
+  margin-bottom: 1rem;
+}
+.heading h2 {
+  font-size: 3.8rem;
+  font-family: initial;
+}

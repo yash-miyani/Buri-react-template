@@ -1,0 +1,76 @@
+.footer {
+  background-color: #1c1a18;
+  color: #fff;
+  padding: 1rem 0;
+}
+.footer h2 {
+  font-size: 2.8rem;
+  font-family: initial;
+}
+.footer ul,
+.footer h3 {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  color: #a9a9a9;
+  font-weight: 500;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.footer ul li:hover,
+.footer-icon i:hover {
+  color: #d6ad86;
+}
+.footer ul li {
+  margin-top: 1rem;
+}
+.footer h4 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #d6ad86;
+}
+.footer-icon i {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.footer input {
+  margin-top: 3rem;
+  width: 60%;
+  padding: 1rem;
+  outline: none;
+}
+.footer p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 70%;
+  color: #a9a9a9;
+  margin-top: 2rem;
+}
+.bi-send-fill {
+  padding: 1rem 1.5rem;
+  background-color: #d6ad86;
+  margin-left: -1px;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.sub-footer {
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #777777;
+  background-color: #1c1a18;
+}
+
+@media (max-width: 968px) {
+  .footer h2 {
+    margin-top: 5rem;
+  }
+  .footer {
+    padding: 1rem 5rem;
+  }
+}
